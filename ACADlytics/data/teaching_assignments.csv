@@ -1,0 +1,21 @@
+﻿assignment_id,faculty_id,academic_year,semester,section,year_level,subject_code,subject_name,enrolled_students,sete_eligible
+ASN-001,FAC-001,2025-2026,1,BSIT-3A,3,IT301,Object-Oriented Programming,8,8
+ASN-002,FAC-001,2025-2026,1,BSIT-3B,3,IT301,Object-Oriented Programming,8,8
+ASN-003,FAC-001,2025-2026,1,BSIT-2A,2,IT205,Web Systems and Technologies,7,7
+ASN-004,FAC-001,2025-2026,1,BSIT-2B,2,IT210,Database Management Systems,7,7
+ASN-005,FAC-001,2025-2026,1,BSIT-4A,4,IT412,Information Assurance and Security,7,7
+ASN-006,FAC-001,2025-2026,2,BSIT-3C,3,IT301,Object-Oriented Programming,8,8
+ASN-007,FAC-001,2025-2026,2,BSIT-3D,3,IT301,Object-Oriented Programming,8,8
+ASN-008,FAC-001,2025-2026,2,BSIT-2C,2,IT205,Web Systems and Technologies,8,8
+ASN-009,FAC-001,2025-2026,2,BSIT-2D,2,IT210,Database Management Systems,7,7
+ASN-010,FAC-001,2025-2026,2,BSIT-4B,4,IT412,Information Assurance and Security,7,7
+ASN-011,FAC-001,2026-2027,1,BSIT-3A,3,IT301,Object-Oriented Programming,8,8
+ASN-012,FAC-001,2026-2027,1,BSIT-3B,3,IT301,Object-Oriented Programming,8,8
+ASN-013,FAC-001,2026-2027,1,BSIT-2A,2,IT205,Web Systems and Technologies,7,7
+ASN-014,FAC-001,2026-2027,1,BSIT-2B,2,IT210,Database Management Systems,7,7
+ASN-015,FAC-001,2026-2027,1,BSIT-4A,4,IT412,Information Assurance and Security,7,7
+ASN-016,FAC-001,2026-2027,2,BSIT-3C,3,IT301,Object-Oriented Programming,8,8
+ASN-017,FAC-001,2026-2027,2,BSIT-3D,3,IT301,Object-Oriented Programming,8,8
+ASN-018,FAC-001,2026-2027,2,BSIT-2C,2,IT205,Web Systems and Technologies,8,8
+ASN-019,FAC-001,2026-2027,2,BSIT-2D,2,IT210,Database Management Systems,7,7
+ASN-020,FAC-001,2026-2027,2,BSIT-4B,4,IT412,Information Assurance and Security,7,7

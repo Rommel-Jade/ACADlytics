@@ -1,0 +1,21 @@
+﻿sheet_id,assignment_id,faculty_id,academic_year,semester,subject_code,subject_name,section,student_records,deadline,date_submitted,submission_status,days_late
+SHT-001,ASN-001,FAC-001,2025-2026,1,IT301,Object-Oriented Programming,BSIT-3A,8,2026-01-13,2026-01-14,Late,1
+SHT-002,ASN-002,FAC-001,2025-2026,1,IT301,Object-Oriented Programming,BSIT-3B,8,2026-01-13,2026-01-14,Late,1
+SHT-003,ASN-003,FAC-001,2025-2026,1,IT205,Web Systems and Technologies,BSIT-2A,7,2026-01-13,2026-01-06,On Time,0
+SHT-004,ASN-004,FAC-001,2025-2026,1,IT210,Database Management Systems,BSIT-2B,7,2026-01-13,2026-01-09,On Time,0
+SHT-005,ASN-005,FAC-001,2025-2026,1,IT412,Information Assurance and Security,BSIT-4A,7,2026-01-13,2026-01-16,Late,3
+SHT-006,ASN-006,FAC-001,2025-2026,2,IT301,Object-Oriented Programming,BSIT-3C,8,2026-06-13,2026-06-09,On Time,0
+SHT-007,ASN-007,FAC-001,2025-2026,2,IT301,Object-Oriented Programming,BSIT-3D,8,2026-06-13,2026-06-06,On Time,0
+SHT-008,ASN-008,FAC-001,2025-2026,2,IT205,Web Systems and Technologies,BSIT-2C,8,2026-06-13,2026-06-16,Late,3
+SHT-009,ASN-009,FAC-001,2025-2026,2,IT210,Database Management Systems,BSIT-2D,7,2026-06-13,2026-06-14,Late,1
+SHT-010,ASN-010,FAC-001,2025-2026,2,IT412,Information Assurance and Security,BSIT-4B,7,2026-06-13,2026-06-16,Late,3
+SHT-011,ASN-011,FAC-001,2026-2027,1,IT301,Object-Oriented Programming,BSIT-3A,8,2027-01-12,2027-01-05,On Time,0
+SHT-012,ASN-012,FAC-001,2026-2027,1,IT301,Object-Oriented Programming,BSIT-3B,8,2027-01-12,2027-01-05,On Time,0
+SHT-013,ASN-013,FAC-001,2026-2027,1,IT205,Web Systems and Technologies,BSIT-2A,7,2027-01-12,2027-01-12,On Time,0
+SHT-014,ASN-014,FAC-001,2026-2027,1,IT210,Database Management Systems,BSIT-2B,7,2027-01-12,2027-01-10,On Time,0
+SHT-015,ASN-015,FAC-001,2026-2027,1,IT412,Information Assurance and Security,BSIT-4A,7,2027-01-12,2027-01-12,On Time,0
+SHT-016,ASN-016,FAC-001,2026-2027,2,IT301,Object-Oriented Programming,BSIT-3C,8,2027-06-15,2027-06-12,On Time,0
+SHT-017,ASN-017,FAC-001,2026-2027,2,IT301,Object-Oriented Programming,BSIT-3D,8,2027-06-15,2027-06-17,Late,2
+SHT-018,ASN-018,FAC-001,2026-2027,2,IT205,Web Systems and Technologies,BSIT-2C,8,2027-06-15,2027-06-14,On Time,0
+SHT-019,ASN-019,FAC-001,2026-2027,2,IT210,Database Management Systems,BSIT-2D,7,2027-06-15,2027-06-20,Late,5
+SHT-020,ASN-020,FAC-001,2026-2027,2,IT412,Information Assurance and Security,BSIT-4B,7,2027-06-15,2027-06-13,On Time,0
