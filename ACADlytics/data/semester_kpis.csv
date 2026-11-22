@@ -1,0 +1,5 @@
+﻿academic_year,semester,faculty_id,section_count,subject_count,academic_records,on_track_records,at_risk_records,failed_records,on_track_rate_pct,official_passing_rate_pct,average_assessment_score_pct,grade_sheets_on_time,grade_submission_timeliness_pct,sete_submitted,sete_eligible,sete_response_rate_pct,average_sete_rating,sete_rating_change
+2025-2026,1,FAC-001,5,4,37,33,2,2,89.19,94.59,84.69,2,40.0,30,37,81.08,4.013,
+2025-2026,2,FAC-001,5,4,38,32,3,3,84.21,92.11,85.18,2,40.0,32,38,84.21,4.181,0.168
+2026-2027,1,FAC-001,5,4,37,31,1,5,83.78,86.49,85.22,5,100.0,29,37,78.38,4.166,-0.015
+2026-2027,2,FAC-001,5,4,38,32,4,2,84.21,94.74,85.47,3,60.0,31,38,81.58,4.206,0.04
