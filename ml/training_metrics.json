@@ -1,0 +1,159 @@
+{
+  "model_version": "acadlytics_midterm_failure_v2",
+  "generated_utc": "2026-11-20T08:33:58.849897+00:00",
+  "dataset": "SYNTHETIC HISTORICAL TRAINING DATASET",
+  "synthetic_training_file": "data\\synthetic_historical_training.csv",
+  "row_count": 1500,
+  "failure_count": 113,
+  "not_failed_count": 1387,
+  "input_features_used_before_final_grade": [
+    "attendance_pct",
+    "quiz_average",
+    "assignment_average",
+    "midterm_score",
+    "previous_gpa",
+    "missing_submissions"
+  ],
+  "dashboard_compatible_features": [
+    "attendance_pct",
+    "quiz_average",
+    "midterm_score"
+  ],
+  "features_excluded_for_leakage": [
+    "final_grade",
+    "passed",
+    "grade_status",
+    "final_exam_score"
+  ],
+  "validation": {
+    "method": "Stratified 75/25 holdout plus 5-fold stratified out-of-fold comparison",
+    "holdout_train_count": 1125,
+    "holdout_test_count": 375,
+    "holdout_metrics_by_model": {
+      "Logistic Regression": {
+        "tested_records": 375,
+        "actual_failures": 28,
+        "accuracy": 0.8827,
+        "precision": 0.3857,
+        "recall": 0.9643,
+        "f1": 0.551,
+        "roc_auc": 0.9749,
+        "confusion_matrix": [
+          [
+            304,
+            43
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      },
+      "Random Forest": {
+        "tested_records": 375,
+        "actual_failures": 28,
+        "accuracy": 0.9093,
+        "precision": 0.44,
+        "recall": 0.7857,
+        "f1": 0.5641,
+        "roc_auc": 0.9677,
+        "confusion_matrix": [
+          [
+            319,
+            28
+          ],
+          [
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "cross_validation_metrics_by_model": {
+      "Logistic Regression": {
+        "tested_records": 1500,
+        "actual_failures": 113,
+        "accuracy": 0.8967,
+        "precision": 0.416,
+        "recall": 0.9204,
+        "f1": 0.573,
+        "roc_auc": 0.9668,
+        "confusion_matrix": [
+          [
+            1241,
+            146
+          ],
+          [
+            9,
+            104
+          ]
+        ]
+      },
+      "Random Forest": {
+        "tested_records": 1500,
+        "actual_failures": 113,
+        "accuracy": 0.9293,
+        "precision": 0.5198,
+        "recall": 0.8142,
+        "f1": 0.6345,
+        "roc_auc": 0.957,
+        "confusion_matrix": [
+          [
+            1302,
+            85
+          ],
+          [
+            21,
+            92
+          ]
+        ]
+      }
+    },
+    "dashboard_compatible_cross_validation_metrics": {
+      "Logistic Regression": {
+        "tested_records": 1500,
+        "actual_failures": 113,
+        "accuracy": 0.8627,
+        "precision": 0.3402,
+        "recall": 0.8761,
+        "f1": 0.4901,
+        "roc_auc": 0.9473,
+        "confusion_matrix": [
+          [
+            1195,
+            192
+          ],
+          [
+            14,
+            99
+          ]
+        ]
+      },
+      "Random Forest": {
+        "tested_records": 1500,
+        "actual_failures": 113,
+        "accuracy": 0.9,
+        "precision": 0.414,
+        "recall": 0.7876,
+        "f1": 0.5427,
+        "roc_auc": 0.9369,
+        "confusion_matrix": [
+          [
+            1261,
+            126
+          ],
+          [
+            24,
+            89
+          ]
+        ]
+      }
+    }
+  },
+  "selected_model": "Random Forest",
+  "dashboard_selected_model": "Random Forest",
+  "prediction_output_records": 150,
+  "prediction_source": "Existing data/student_grades.csv; matched by record_id; final grade was not used as an input",
+  "risk_thresholds": "High >=50%, Moderate 20%-<50%, Low <20%; screening scores are not guaranteed probabilities",
+  "limitation": "The dashboard records already contain final grades, so these are historical retrospective screenings for demonstration and faculty review, not verified future-semester forecasts."
+}
